@@ -1,6 +1,6 @@
 
 
-## VGG16-Based Image Classification on iNaturalist_12K
+## Part B - VGG16-Based Image Classification on iNaturalist_12K
 
 This reporsitory fine-tunes a pre-trained **VGG16** model for image classification on a subset of the iNaturalist dataset.
 
