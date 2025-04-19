@@ -1,0 +1,26 @@
+2025-04-14 00:16:12,292 INFO    Thread-198 (_run_job):9048 [wandb_init.py:setup_run_log_directory():647] Logging user logs to c:\Users\prajv\DA6401_ASSIGNMENT2\wandb\run-20250414_001612-wzd6pfp3\logs\debug.log
+2025-04-14 00:16:12,292 INFO    Thread-198 (_run_job):9048 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to c:\Users\prajv\DA6401_ASSIGNMENT2\wandb\run-20250414_001612-wzd6pfp3\logs\debug-internal.log
+2025-04-14 00:16:12,292 INFO    Thread-198 (_run_job):9048 [wandb_init.py:init():761] calling init triggers
+2025-04-14 00:16:12,292 INFO    Thread-198 (_run_job):9048 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activationFunction': 'SiLU', 'batchNormalisation': 'yes', 'dataAugmentation': 'no', 'dropout': 0.2, 'filterOrganisation': 'same', 'filters': 64}
+config: {'filters': 32, 'activationFunction': 'ReLU', 'filterOrganisation': 'same', 'dataAugmentation': 'yes', 'batchNormalisation': 'yes', 'dropout': 0.2, '_wandb': {}}
+2025-04-14 00:16:12,297 INFO    Thread-198 (_run_job):9048 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-04-14 00:16:12,353 INFO    Thread-198 (_run_job):9048 [wandb_run.py:_finish():2112] finishing run da6401-assignments/assignment2/wzd6pfp3
+2025-04-14 00:16:12,354 ERROR   Thread-198 (_run_job):9048 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-04-14 00:16:12,354 INFO    Thread-198 (_run_job):9048 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-14 00:16:12,355 INFO    Thread-198 (_run_job):9048 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-04-14 00:16:12,355 INFO    Thread-198 (_run_job):9048 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 1
+2025-04-14 00:16:12,355 INFO    Thread-198 (_run_job):9048 [wandb_run.py:_restore():2322] restore
+2025-04-14 00:16:12,356 INFO    Thread-198 (_run_job):9048 [wandb_run.py:_restore():2328] restore done
+2025-04-14 00:16:14,800 INFO    Thread-198 (_run_job):9048 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-04-14 00:16:14,800 INFO    Thread-198 (_run_job):9048 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-04-14 00:16:14,800 INFO    Thread-198 (_run_job):9048 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-04-14 00:16:14,816 ERROR   MainThread:9048 [pyagent.py:_run_jobs_from_queue():234] Run wzd6pfp3 errored:
+Traceback (most recent call last):
+  File "c:\Python312\Lib\site-packages\wandb\agents\pyagent.py", line 306, in _run_job
+    self._function()
+  File "C:\Users\prajv\AppData\Local\Temp\ipykernel_9048\2340083540.py", line 28, in sweep_hyperparameters
+    train_loader, val_loader = get_data_loaders(config)
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+
+2025-04-14 00:16:14,822 ERROR   MainThread:9048 [pyagent.py:_run_jobs_from_queue():245] Detected 3 failed runs in the first 60 seconds, killing sweep.

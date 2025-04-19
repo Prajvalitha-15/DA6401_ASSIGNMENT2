@@ -1,0 +1,6 @@
+2025-04-14 01:10:11,233 INFO    Thread-11 (_run_job):18612 [wandb_init.py:setup_run_log_directory():647] Logging user logs to c:\Users\prajv\DA6401_ASSIGNMENT2\wandb\run-20250414_011011-7upgsd3b\logs\debug.log
+2025-04-14 01:10:11,233 INFO    Thread-11 (_run_job):18612 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to c:\Users\prajv\DA6401_ASSIGNMENT2\wandb\run-20250414_011011-7upgsd3b\logs\debug-internal.log
+2025-04-14 01:10:11,233 INFO    Thread-11 (_run_job):18612 [wandb_init.py:init():761] calling init triggers
+2025-04-14 01:10:11,233 INFO    Thread-11 (_run_job):18612 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activationFunction': 'SiLU', 'batchNormalisation': 'yes', 'dataAugmentation': 'no', 'dropout': 0.2, 'filterOrganisation': 'half', 'filters': 64}
+config: {'filters': 32, 'activationFunction': 'ReLU', 'filterOrganisation': 'same', 'dataAugmentation': 'yes', 'batchNormalisation': 'yes', 'dropout': 0.2, '_wandb': {}}
+2025-04-14 01:10:11,233 INFO    Thread-11 (_run_job):18612 [wandb_init.py:init():776] wandb.init() called while a run is active

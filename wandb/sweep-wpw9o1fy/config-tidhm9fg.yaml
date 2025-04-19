@@ -1,0 +1,14 @@
+wandb_version: 1
+
+activationFunction:
+  value: GELU
+batchNormalisation:
+  value: 'no'
+dataAugmentation:
+  value: 'no'
+dropout:
+  value: 0.3
+filterOrganisation:
+  value: half
+filters:
+  value: 32

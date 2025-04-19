@@ -1,0 +1,16 @@
+{"time":"2025-04-14T00:21:47.9132584+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"c:\\Users\\prajv\\DA6401_ASSIGNMENT2\\wandb\\run-20250414_002147-voxvpjez\\logs\\debug-core.log"}
+{"time":"2025-04-14T00:21:49.1417403+05:30","level":"INFO","msg":"created new stream","id":"voxvpjez"}
+{"time":"2025-04-14T00:21:49.1418013+05:30","level":"INFO","msg":"stream: started","id":"voxvpjez"}
+{"time":"2025-04-14T00:21:49.1418013+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"voxvpjez"}
+{"time":"2025-04-14T00:21:49.1418013+05:30","level":"INFO","msg":"handler: started","stream_id":"voxvpjez"}
+{"time":"2025-04-14T00:21:49.1418013+05:30","level":"INFO","msg":"sender: started","stream_id":"voxvpjez"}
+{"time":"2025-04-14T00:21:49.5396436+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-14T00:21:49.8389725+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-14T00:21:50.1753039+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-14T00:21:50.8541662+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading requirements.txt","runtime_seconds":0.7029055,"progress":"2.9KB/2.9KB"},{"desc":"updating run config","runtime_seconds":0.0852584}],"total_operations":2}}
+{"time":"2025-04-14T00:21:52.3626637+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-14T00:21:52.7170418+05:30","level":"INFO","msg":"stream: closing","id":"voxvpjez"}
+{"time":"2025-04-14T00:21:52.7170418+05:30","level":"INFO","msg":"handler: closed","stream_id":"voxvpjez"}
+{"time":"2025-04-14T00:21:52.7170418+05:30","level":"INFO","msg":"sender: closed","stream_id":"voxvpjez"}
+{"time":"2025-04-14T00:21:52.7170418+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"voxvpjez"}
+{"time":"2025-04-14T00:21:52.7170418+05:30","level":"INFO","msg":"stream: closed","id":"voxvpjez"}

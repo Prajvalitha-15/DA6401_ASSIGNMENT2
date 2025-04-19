@@ -1,0 +1,16 @@
+{
+  "os":  "Windows-11-10.0.22631-SP0",
+  "python":  "CPython 3.12.9",
+  "startedAt":  "2025-04-13T18:45:59.589388Z",
+  "program":  "c:\\Users\\prajv\\DA6401_ASSIGNMENT2\\2_sweep.ipynb",
+  "codePath":  "2_sweep.ipynb",
+  "git":  {
+    "remote":  "https://github.com/Prajvalitha-15/DA6401_ASSIGNMENT2.git",
+    "commit":  "ff5f6c0582ad0da102481b2ed7ac4392411bf956"
+  },
+  "email":  "ed20b071@smail.iitm.ac.in",
+  "root":  "c:\\Users\\prajv\\DA6401_ASSIGNMENT2",
+  "host":  "Gojo",
+  "executable":  "c:\\Python312\\python.exe",
+  "codePathLocal":  "2_sweep.ipynb"
+}

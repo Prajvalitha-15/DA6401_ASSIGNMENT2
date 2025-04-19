@@ -1,0 +1,56 @@
+2025-04-14 00:29:45,353 INFO    Thread-157 (_run_job):1788 [wandb_init.py:setup_run_log_directory():647] Logging user logs to c:\Users\prajv\DA6401_ASSIGNMENT2\wandb\run-20250414_002945-cziyfmuk\logs\debug.log
+2025-04-14 00:29:45,353 INFO    Thread-157 (_run_job):1788 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to c:\Users\prajv\DA6401_ASSIGNMENT2\wandb\run-20250414_002945-cziyfmuk\logs\debug-internal.log
+2025-04-14 00:29:45,353 INFO    Thread-157 (_run_job):1788 [wandb_init.py:init():761] calling init triggers
+2025-04-14 00:29:45,353 INFO    Thread-157 (_run_job):1788 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activationFunction': 'GELU', 'batchNormalisation': 'no', 'dataAugmentation': 'no', 'dropout': 0.3, 'filterOrganisation': 'same', 'filters': 64}
+config: {'filters': 32, 'activationFunction': 'ReLU', 'filterOrganisation': 'same', 'dataAugmentation': 'yes', 'batchNormalisation': 'yes', 'dropout': 0.2, '_wandb': {}}
+2025-04-14 00:29:45,353 INFO    Thread-157 (_run_job):1788 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-04-14 00:29:47,189 INFO    Thread-157 (_run_job):1788 [wandb_run.py:_finish():2112] finishing run da6401-assignments/assignment2/cziyfmuk
+2025-04-14 00:29:47,199 ERROR   Thread-157 (_run_job):1788 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-04-14 00:29:47,199 INFO    Thread-157 (_run_job):1788 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-04-14 00:29:47,199 INFO    Thread-157 (_run_job):1788 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-04-14 00:29:47,199 INFO    Thread-157 (_run_job):1788 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 1
+2025-04-14 00:29:47,199 INFO    Thread-157 (_run_job):1788 [wandb_run.py:_restore():2322] restore
+2025-04-14 00:29:47,199 INFO    Thread-157 (_run_job):1788 [wandb_run.py:_restore():2328] restore done
+2025-04-14 00:29:49,280 INFO    Thread-157 (_run_job):1788 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-04-14 00:29:49,280 INFO    Thread-157 (_run_job):1788 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-04-14 00:29:49,280 INFO    Thread-157 (_run_job):1788 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-04-14 00:29:49,289 ERROR   MainThread:1788 [pyagent.py:_run_jobs_from_queue():234] Run cziyfmuk errored:
+Traceback (most recent call last):
+  File "c:\Python312\Lib\site-packages\wandb\agents\pyagent.py", line 306, in _run_job
+    self._function()
+  File "C:\Users\prajv\AppData\Local\Temp\ipykernel_1788\2340083540.py", line 36, in sweep_hyperparameters
+    train_loss = train(model, train_loader, criterion, optimizer, device)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prajv\AppData\Local\Temp\ipykernel_1788\427213304.py", line 7, in train
+    outputs = model(images)
+              ^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prajv\AppData\Local\Temp\ipykernel_1788\2929947945.py", line 36, in forward
+    x = self.fc(x)
+        ^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\torch\nn\modules\linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (32x262144 and 3211264x10)
+
+2025-04-14 00:29:49,289 ERROR   MainThread:1788 [pyagent.py:_run_jobs_from_queue():245] Detected 3 failed runs in the first 60 seconds, killing sweep.

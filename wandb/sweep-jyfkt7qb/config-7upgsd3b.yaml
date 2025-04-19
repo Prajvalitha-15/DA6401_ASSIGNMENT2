@@ -1,0 +1,14 @@
+wandb_version: 1
+
+activationFunction:
+  value: SiLU
+batchNormalisation:
+  value: 'yes'
+dataAugmentation:
+  value: 'no'
+dropout:
+  value: 0.2
+filterOrganisation:
+  value: half
+filters:
+  value: 64

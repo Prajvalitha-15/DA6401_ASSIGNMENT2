@@ -1,0 +1,14 @@
+wandb_version: 1
+
+activationFunction:
+  value: Mish
+batchNormalisation:
+  value: 'yes'
+dataAugmentation:
+  value: 'no'
+dropout:
+  value: 0.2
+filterOrganisation:
+  value: same
+filters:
+  value: 64
